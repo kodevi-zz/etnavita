@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+		xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id        = "com.phonegap.etna"
+        version   = "1.0.0">
+		
+
+		
+    <name>Etna Yaşam Dünyası</name>
+
+    <description>
+        Etna Yaşam Dünyası
+    </description>
+
+    <author href="https://build.phonegap.com" email="support@phonegap.com">
+       etna vita
+    </author>
+	
+	<access origin="*"/>
+	<gap:platform name="android" minVersion="2.1"/>
+	<gap:plugin name="org.apache.cordova.inappbrowser" source="pgb" version="0.2.4" />
+	<gap:plugin name="io.github.pwlin.cordova.plugins.fileopener2" version="1.0.11" />
+	<gap:plugin name="com.gkcgautam.asset2sd" version="2.0.0" />
+
+	<!-- PG version -->
+	<preference name="phonegap-version" value="3.1.0" />
+	<!--
+		We don't really need specific permissions,
+		but PGB will add some.
+	-->
+	<preference name="permissions" value="none"/>
+
+    <!-- <content src="http://mysite.com/myapp.html" /> for external pages -->
+    <content src="index.html" />
+	
+	<icon src="icon.png" />
+    <icon src="res/icon/android/icon-36-ldpi.png"   gap:platform="android"    gap:qualifier="ldpi" />
+    <icon src="res/icon/android/icon-48-mdpi.png"   gap:platform="android"    gap:qualifier="mdpi" />
+    <icon src="res/icon/android/icon-72-hdpi.png"   gap:platform="android"    gap:qualifier="hdpi" />
+    <icon src="res/icon/android/icon-96-xhdpi.png"  gap:platform="android"    gap:qualifier="xhdpi" />
+
+    <preference name="loglevel" value="DEBUG" />
+	    <feature name="App">
+      <param name="android-package" value="org.apache.cordova.App"/>
+    </feature>
+    <feature name="Geolocation">
+      <param name="android-package" value="org.apache.cordova.GeoBroker"/>
+    </feature>
+    <feature name="Device">
+      <param name="android-package" value="org.apache.cordova.Device"/>
+    </feature>
+    <feature name="Accelerometer">
+      <param name="android-package" value="org.apache.cordova.AccelListener"/>
+    </feature>
+    <feature name="Compass">
+      <param name="android-package" value="org.apache.cordova.CompassListener"/>
+    </feature>
+    <feature name="Media">
+      <param name="android-package" value="org.apache.cordova.AudioHandler"/>
+    </feature>
+    <feature name="Camera">
+      <param name="android-package" value="org.apache.cordova.CameraLauncher"/>
+    </feature>
+    <feature name="Contacts">
+      <param name="android-package" value="org.apache.cordova.ContactManager"/>
+    </feature>
+    <feature name="File">
+      <param name="android-package" value="org.apache.cordova.FileUtils"/>
+    </feature>
+    <feature name="NetworkStatus">
+      <param name="android-package" value="org.apache.cordova.NetworkManager"/>
+    </feature>
+    <feature name="Notification">
+      <param name="android-package" value="org.apache.cordova.Notification"/>
+    </feature>
+    <feature name="Storage">
+      <param name="android-package" value="org.apache.cordova.Storage"/>
+    </feature>
+    <feature name="FileTransfer">
+      <param name="android-package" value="org.apache.cordova.FileTransfer"/>
+    </feature>
+    <feature name="Capture">
+      <param name="android-package" value="org.apache.cordova.Capture"/>
+    </feature>
+    <feature name="Battery">
+      <param name="android-package" value="org.apache.cordova.BatteryListener"/>
+    </feature>
+    <feature name="SplashScreen">
+      <param name="android-package" value="org.apache.cordova.SplashScreen"/>
+    </feature>
+    <feature name="Echo">
+      <param name="android-package" value="org.apache.cordova.Echo"/>
+    </feature>
+    <feature name="Globalization">
+      <param name="android-package" value="org.apache.cordova.Globalization"/>
+    </feature>
+    <feature name="InAppBrowser">
+      <param name="android-package" value="org.apache.cordova.InAppBrowser"/>
+    </feature>
+	
+	
+	<plugin name="File" value="org.apache.cordova.FileUtils" />
+    <plugin name="FileTransfer" value="org.apache.cordova.FileTransfer" />
+	<plugin name="PdfViewer" value="com.phonegap.plugins.pdfViewer.PdfViewer"/>
+    <!-- Deprecated plugins element. Remove in 3.0 -->
+
+</widget>
