@@ -99,7 +99,7 @@
     </feature>
 	
 	
-	<plugin name="File" value="org.apache.cordova.FileUtils" Source="npm" spec="1" Version="1" Latest="n/a" Installed="n/a" Platforms="android" />
+	<plugin name="File" value="org.apache.cordova.FileUtils" Source="npm" spec="n/a" Version="1" Latest="n/a" Installed="n/a" Platforms="android" />
     <plugin name="FileTransfer" value="org.apache.cordova.FileTransfer" spec="1"  />
 	<plugin name="PdfViewer" value="com.phonegap.plugins.pdfViewer.PdfViewer" spec="1" />
     <!-- Deprecated plugins element. Remove in 3.0 -->
