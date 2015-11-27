@@ -6,10 +6,10 @@
 		
 
 		
-    <name>Etna Yaşam Dünyası</name>
+    <name>Etna Yasam Dunyası</name>
 
     <description>
-        Etna Yaşam Dünyası
+        Etna Yasam Dunyası
     </description>
 
     <author href="https://build.phonegap.com" email="support@phonegap.com">
@@ -112,13 +112,10 @@
     </feature>
 	
 	
-	<plugin name="File" value="org.apache.cordova.FileUtils" />
-    <plugin name="FileTransfer" value="org.apache.cordova.FileTransfer" />
-	<plugin name="PdfViewer" value="com.phonegap.plugins.pdfViewer.PdfViewer"/>
-	<plugin name="com.phonegap.plugin.statusbar" source="pgb" version="~1.1.0" />
-	<plugin name="com.phonegap.plugin.statusbar" source="pgb" spec="~1.1.0" />
-	<plugin name="cordova-plugin-whitelist" version="~1" />
-	<plugin name="cordova-plugin-whitelist" spec="~1" />
+	<plugin name="File" spec="org.apache.cordova.FileUtils" />
+    <plugin name="FileTransfer" spec="org.apache.cordova.FileTransfer" />
+	<plugin name="PdfViewer" spec="com.phonegap.plugins.pdfViewer.PdfViewer"/>
+
     <!-- Deprecated plugins element. Remove in 3.0 -->
 
 </widget>
