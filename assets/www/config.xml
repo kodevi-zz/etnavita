@@ -19,7 +19,7 @@
 	<access origin="*"/>
 	<gap:platform name="android" minVersion="2.1"/>
 	<plugin name="org.apache.cordova.inappbrowser" spec="0.2.4" />
-	<plugin name="io.github.pwlin.cordova.plugins.fileopener2" source="pgb" spec="1.0.11" />
+	<plugin name="io.github.pwlin.cordova.plugins.fileopener2"  spec="1.0.11" />
 	<plugin name="com.gkcgautam.asset2sd" spec="2.0.0" />
 
 	<!-- PG version -->
