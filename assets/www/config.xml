@@ -100,9 +100,9 @@
     </feature>
 	
 
-<plugin name="File" spec="~2.2" />	
-<plugin name="FileTransfer" spec="~2.2" />
-<plugin name="PdfViewer" spec="~2.2" />
+<plugin name="File"/>	
+<plugin name="FileTransfer"/>
+<plugin name="PdfViewer"/>
 <plugin name="org.apache.cordova.inappbrowser" source="pgb" spec="~0.2.4"/>
 <plugin name="io.github.pwlin.cordova.plugins.fileopener2" spec="~1.0.11" />
 <plugin name="com.gkcgautam.asset2sd" spec="~2.0.0" />
