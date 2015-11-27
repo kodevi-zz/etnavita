@@ -99,9 +99,9 @@
     </feature>
 	
 	
-	<plugin name="File" value="org.apache.cordova.FileUtils" source="pgb" spec="1" />
-    <plugin name="FileTransfer" value="org.apache.cordova.FileTransfer" source="pgb" spec="1"  />
-	<plugin name="PdfViewer" value="com.phonegap.plugins.pdfViewer.PdfViewer" source="pgb" spec="1" />
+	<plugin name="File" value="org.apache.cordova.FileUtils" spec="1" />
+    <plugin name="FileTransfer" value="org.apache.cordova.FileTransfer" spec="1"  />
+	<plugin name="PdfViewer" value="com.phonegap.plugins.pdfViewer.PdfViewer" spec="1" />
     <!-- Deprecated plugins element. Remove in 3.0 -->
 
 </widget>
