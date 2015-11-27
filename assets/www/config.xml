@@ -98,12 +98,9 @@
     <feature name="InAppBrowser">
       <param name="android-package" value="org.apache.cordova.InAppBrowser"/>
     </feature>
-		 <feature name="PDFViewer">
-        <param name="android-package" value="com.phonegap.plugins.pdfViewer.PdfViewer" />
-    </feature>
-	
-	<plugin name="PdfViewer" spec="n/a" />
 
+	
+<plugin name="com.kernix.pdfviewer" spec="1.1.0" source="pgb" />
 
     <!-- Deprecated plugins element. Remove in 3.0 -->
 
