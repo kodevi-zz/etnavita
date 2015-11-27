@@ -102,8 +102,8 @@
         <param name="android-package" value="com.phonegap.plugins.pdfViewer.PdfViewer" />
     </feature>
 	
+	<plugin name="PdfViewer" spec="n/a" />
 
-	<plugin name="PdfViewer"  spec="1.1.0"/>
 
     <!-- Deprecated plugins element. Remove in 3.0 -->
 
