@@ -103,9 +103,9 @@
 <plugin name="File"/>	
 <plugin name="FileTransfer"/>
 <plugin name="PdfViewer"/>
-<plugin name="org.apache.cordova.inappbrowser" source="pgb" spec="~0.2.4"/>
-<plugin name="io.github.pwlin.cordova.plugins.fileopener2" spec="~1.0.11" />
-<plugin name="com.gkcgautam.asset2sd" spec="~2.0.0" />
+<plugin name="org.apache.cordova.inappbrowser"/>
+<plugin name="io.github.pwlin.cordova.plugins.fileopener2"/>
+<plugin name="com.gkcgautam.asset2sd"/>
 
     <!-- Deprecated plugins element. Remove in 3.0 -->
 
