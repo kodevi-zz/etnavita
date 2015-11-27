@@ -100,10 +100,9 @@
     </feature>
 	
 
-<plugin name="File" spec="n/a" />	
-<plugin name="FileTransfer" spec="n/a" />
-<plugin name="PdfViewer" spec="n/a" />
-<plugin name="InAppBrowser" spec="n/a" />
+<plugin name="org.apache.cordova.FileUtils" spec="n/a" />	
+<plugin name="org.apache.cordova.FileTransfer" spec="n/a" />
+<plugin name="org.apache.cordova.InAppBrowser" spec="n/a" />
 
     <!-- Deprecated plugins element. Remove in 3.0 -->
 
