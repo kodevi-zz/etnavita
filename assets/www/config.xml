@@ -100,9 +100,9 @@
     </feature>
 	
 
-<plugin name="org.apache.cordova.FileUtils" spec="n/a" />	
-<plugin name="org.apache.cordova.FileTransfer" spec="n/a" />
-<plugin name="org.apache.cordova.InAppBrowser" spec="n/a" />
+<plugin name="File" />	
+<plugin name="FileTransfer" />
+<plugin name="InAppBrowser" />
 
     <!-- Deprecated plugins element. Remove in 3.0 -->
 
