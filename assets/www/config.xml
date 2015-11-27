@@ -17,8 +17,11 @@
     </author>
 	
 	<access origin="*"/>
-	<gap:platform name="android" minVersion="2.1"/>
-
+	<platform name="android"/>
+	<platform name="android">
+	  <preference name="phonegap-version" value="4.0.2" />
+	  <preference name="orientation" value="landscape" />
+	</platform>
 
 	<!-- PG version -->
 	<preference name="phonegap-version" value="3.1.0" />
