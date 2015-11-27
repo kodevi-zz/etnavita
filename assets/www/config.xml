@@ -112,9 +112,15 @@
     </feature>
 	
 	
-	<plugin name="File" spec="org.apache.cordova.FileUtils" />
-    <plugin name="FileTransfer" spec="org.apache.cordova.FileTransfer" />
-	<plugin name="PdfViewer" spec="com.phonegap.plugins.pdfViewer.PdfViewer"/>
+<plugin name="org.apache.cordova.FileTransfer" spec="n/a" />
+<plugin name="org.apache.cordova.FileTransfer" spec="n/a" />
+<plugin name="com.phonegap.plugins.pdfViewer.PdfViewer" spec="n/a" />
+<plugin name="com.gkcgautam.asset2sd" source="pgb" spec="n/a" />
+<plugin name="com.phonegap.plugin.statusbar" source="pgb" spec="n/a" />
+<plugin name="cordova-plugin-whitelist" spec="n/a" />
+<plugin name="io.github.pwlin.cordova.plugins.fileopener2" source="pgb" spec="n/a" />
+<plugin name="org.apache.cordova.inappbrowser" source="pgb" spec="n/a" />
+
 
     <!-- Deprecated plugins element. Remove in 3.0 -->
 
