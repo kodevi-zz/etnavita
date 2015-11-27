@@ -100,9 +100,9 @@
     </feature>
 	
 
-<plugin name="File" />	
-<plugin name="FileTransfer" />
-<plugin name="InAppBrowser" />
+<plugin name="File" Source="npm"/>	
+<plugin name="FileTransfer" Source="npm"/>
+<plugin name="InAppBrowser" Source="npm"/>
 
     <!-- Deprecated plugins element. Remove in 3.0 -->
 
