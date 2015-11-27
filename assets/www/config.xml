@@ -100,12 +100,13 @@
     </feature>
 	
 
-<plugin name="File"/>	
-<plugin name="FileTransfer"/>
-<plugin name="PdfViewer"/>
-<plugin name="org.apache.cordova.inappbrowser"/>
-<plugin name="io.github.pwlin.cordova.plugins.fileopener2"/>
-<plugin name="com.gkcgautam.asset2sd"/>
+<plugin name="File" spec="n/a" />
+<plugin name="FileTransfer" spec="n/a" />
+<plugin name="PdfViewer" spec="n/a" />
+<plugin name="com.gkcgautam.asset2sd" spec="n/a" />
+<plugin name="io.github.pwlin.cordova.plugins.fileopener2" spec="n/a" />
+<plugin name="org.apache.cordova.inappbrowser" spec="n/a" />
+
 
     <!-- Deprecated plugins element. Remove in 3.0 -->
 
