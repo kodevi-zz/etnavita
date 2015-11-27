@@ -103,7 +103,7 @@
 <plugin name="File" spec="~2.2" />	
 <plugin name="FileTransfer" spec="~2.2" />
 <plugin name="PdfViewer" spec="~2.2" />
-
+<plugin name="InAppBrowser" spec="~2.0.0" />
 
     <!-- Deprecated plugins element. Remove in 3.0 -->
 
