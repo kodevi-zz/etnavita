@@ -6,10 +6,10 @@
 		
 
 		
-    <name>Etna Yasam Dunyası</name>
+    <name>Etna Yaşam Dünyası</name>
 
     <description>
-        Etna Yasam Dunyası
+        Etna Yaşam Dünyası
     </description>
 
     <author href="https://build.phonegap.com" email="support@phonegap.com">
@@ -17,24 +17,11 @@
     </author>
 	
 	<access origin="*"/>
-	<gap:plugin name="com.phonegap.plugin.statusbar" spec="1.1.0" />
-	<gap:plugin name="cordova-plugin-whitelist" source="npm" spec="1" />
 	<gap:platform name="android" minVersion="2.1"/>
-	
-	<gap:plugin name="org.apache.cordova.inappbrowser" source="pgb" spec="0.2.4" />
-	<gap:plugin name="io.github.pwlin.cordova.plugins.fileopener2" spec="1.0.11" />
-	<gap:plugin name="com.gkcgautam.asset2sd" spec="2.0.0" />
+	<gap:plugin name="org.apache.cordova.inappbrowser" source="pgb" version="0.2.4" />
+	<gap:plugin name="io.github.pwlin.cordova.plugins.fileopener2" version="1.0.11" />
+	<gap:plugin name="com.gkcgautam.asset2sd" version="2.0.0" />
 
-<platform name="ios|winphone|wp8|android" />	
-<platform name="ios">
-  <preference name="phonegap-version" value="3.9.1" />
-  <preference name="orientation" value="portrait" />
-</platform>
-
-<platform name="android">
-  <preference name="phonegap-version" value="4.0.2" />
-  <preference name="orientation" value="landscape" />
-</platform>
 	<!-- PG version -->
 	<preference name="phonegap-version" value="3.1.0" />
 	<!--
@@ -112,10 +99,9 @@
     </feature>
 	
 	
-	<plugin name="File" value="org.apache.cordova.FileUtils" spec = "1.1.0"/>
-    <plugin name="FileTransfer" value="org.apache.cordova.FileTransfer" spec = "1.1.0"/>
-	<plugin name="PdfViewer" value="com.phonegap.plugins.pdfViewer.PdfViewer" spec = "1.1.0"/>
-
+	<plugin name="File" value="org.apache.cordova.FileUtils" spec="1" />
+    <plugin name="FileTransfer" value="org.apache.cordova.FileTransfer" spec="1"  />
+	<plugin name="PdfViewer" value="com.phonegap.plugins.pdfViewer.PdfViewer" spec="1" />
     <!-- Deprecated plugins element. Remove in 3.0 -->
 
 </widget>
