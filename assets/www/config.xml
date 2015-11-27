@@ -17,11 +17,24 @@
     </author>
 	
 	<access origin="*"/>
+	<gap:plugin name="com.phonegap.plugin.statusbar" version="~1.1.0" />
+	<gap:plugin name="cordova-plugin-whitelist" source="npm" version="~1" />
 	<gap:platform name="android" minVersion="2.1"/>
+	
 	<gap:plugin name="org.apache.cordova.inappbrowser" source="pgb" version="0.2.4" />
 	<gap:plugin name="io.github.pwlin.cordova.plugins.fileopener2" version="1.0.11" />
 	<gap:plugin name="com.gkcgautam.asset2sd" version="2.0.0" />
 
+<platform name="ios|winphone|wp8|android" />	
+<platform name="ios">
+  <preference name="phonegap-version" value="3.9.1" />
+  <preference name="orientation" value="portrait" />
+</platform>
+
+<platform name="android">
+  <preference name="phonegap-version" value="4.0.2" />
+  <preference name="orientation" value="landscape" />
+</platform>
 	<!-- PG version -->
 	<preference name="phonegap-version" value="3.1.0" />
 	<!--
@@ -102,6 +115,10 @@
 	<plugin name="File" value="org.apache.cordova.FileUtils" />
     <plugin name="FileTransfer" value="org.apache.cordova.FileTransfer" />
 	<plugin name="PdfViewer" value="com.phonegap.plugins.pdfViewer.PdfViewer"/>
+	<plugin name="com.phonegap.plugin.statusbar" source="pgb" version="~1.1.0" />
+	<plugin name="com.phonegap.plugin.statusbar" source="pgb" spec="~1.1.0" />
+	<plugin name="cordova-plugin-whitelist" version="~1" />
+	<plugin name="cordova-plugin-whitelist" spec="~1" />
     <!-- Deprecated plugins element. Remove in 3.0 -->
 
 </widget>
