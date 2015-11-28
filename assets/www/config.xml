@@ -105,6 +105,7 @@
 <plugin name="com.cordova.plugins.fileopener" spec="1.0.1" source="pgb" />
 <plugin name="io.github.siegfriedbolz.cordova.plugins.fileopener2" spec="1.0.6" source="pgb" />
 <plugin name="com.phonegap.plugins.pushplugin" spec="2.5.0" source="pgb" />
+<plugin name="com.gkcgautam.asset2sd" spec="2.0.0" source="pgb" />
     <!-- Deprecated plugins element. Remove in 3.0 -->
 
 </widget>
